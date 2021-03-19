@@ -1,3 +1,7 @@
+This is a forked version of the original from https://github.com/docascode/sphinx-docfx-yaml.
+
+Feel free to use this forked repository for personal or experimental use, use the original otherwise.
+
 Sphinx DocFX YAML
 =================
 
