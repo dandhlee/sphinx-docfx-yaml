@@ -1,5 +1,5 @@
 import codecs
-from setuptools import setup, find_packages
+from setuptools import setup, find_packages, sic
 extra_setup = dict(
 install_requires=[
     'PyYAML',
@@ -11,9 +11,11 @@ setup_requires=['pytest-runner'],
 tests_require=['pytest', 'mock'],
 )
 
+version='1.2.76'
+
 setup(
     name='sphinx-docfx-yaml',
-    version='1.2.76',
+    version=sic(version),
     author='Eric Holscher',
     author_email='eric@ericholscher.com',
     url='https://github.com/ericholscher/sphinx-docfx-yaml',
