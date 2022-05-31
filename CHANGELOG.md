@@ -1,13 +1,13 @@
 # Changelog
 
-### [0.4.0](https://www.github.com/googleapis/python-pubsublite/compare/v0.3.0...v0.4.0) (2021-03-22)
+## [0.4.0](https://www.github.com/googleapis/python-pubsublite/compare/v0.3.0...v0.4.0) (2021-03-22)
 
 
 ### Features
 
 * adding ability to create subscriptions at HEAD ([#106](https://www.github.com/googleapis/python-pubsublite/issues/106)) ([4d03d3a](https://www.github.com/googleapis/python-pubsublite/commit/4d03d3a8ae8089fea87f5acd02a170697fa136fc))
 
-### [0.3.0](https://www.github.com/googleapis/python-pubsublite/compare/v0.2.0...v0.3.0) (2021-03-09)
+## [0.3.0](https://www.github.com/googleapis/python-pubsublite/compare/v0.2.0...v0.3.0) (2021-03-09)
 
 
 ### Features
@@ -25,7 +25,7 @@
 
 * remove multiprocessing note ([#82](https://www.github.com/googleapis/python-pubsublite/issues/82)) ([a8d26a1](https://www.github.com/googleapis/python-pubsublite/commit/a8d26a11db301d7dc7a97ff7f7405d82bcf0a910))
 
-### [0.2.0](https://www.github.com/googleapis/python-pubsublite/compare/v0.1.0...v0.2.0) (2020-12-14)
+## [0.2.0](https://www.github.com/googleapis/python-pubsublite/compare/v0.1.0...v0.2.0) (2020-12-14)
 
 
 ### Features
@@ -37,7 +37,7 @@
 
 * Fix type hints in paths now that string projects are allowed. ([#75](https://www.github.com/googleapis/python-pubsublite/issues/75)) ([b5ffc42](https://www.github.com/googleapis/python-pubsublite/commit/b5ffc423685596a309a7cee63f92c80ad5d74f07))
 
-### 0.1.0 (2020-11-19)
+## 0.1.0 (2020-11-19)
 
 
 ### Features
