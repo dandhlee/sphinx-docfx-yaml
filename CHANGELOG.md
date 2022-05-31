@@ -1,46 +1,46 @@
 # Changelog
 
-### [0.4.0](https://www.github.com/googleapis/python-pubsublite/compare/v0.3.0...v0.4.0) (2021-03-22)
+## [0.4.0](https://www.github.com/googleapis/python-pubsublite/compare/v0.3.0...v0.4.0) (2021-03-22)
 
 
-### Features
+## Features
 
 * adding ability to create subscriptions at HEAD ([#106](https://www.github.com/googleapis/python-pubsublite/issues/106)) ([4d03d3a](https://www.github.com/googleapis/python-pubsublite/commit/4d03d3a8ae8089fea87f5acd02a170697fa136fc))
 
-### [0.3.0](https://www.github.com/googleapis/python-pubsublite/compare/v0.2.0...v0.3.0) (2021-03-09)
+## [0.3.0](https://www.github.com/googleapis/python-pubsublite/compare/v0.2.0...v0.3.0) (2021-03-09)
 
 
-### Features
+## Features
 
 * Make message_id encode a PublishMetadata which includes the partition ([#90](https://www.github.com/googleapis/python-pubsublite/issues/90)) ([85944e7](https://www.github.com/googleapis/python-pubsublite/commit/85944e786908d0dd240b6c099cfd969045eecbd3))
 
 
-### Bug Fixes
+## Bug Fixes
 
 * remove absl dependency ([#94](https://www.github.com/googleapis/python-pubsublite/issues/94)) ([0573edb](https://www.github.com/googleapis/python-pubsublite/commit/0573edbefdf2612b2006b51829d1fd8fa636de3c))
 * Rename PublishMetadata to MessageMetadata ([#92](https://www.github.com/googleapis/python-pubsublite/issues/92)) ([a744441](https://www.github.com/googleapis/python-pubsublite/commit/a7444418d1e2822bcaee0da3aa036c6a14cf8a6e))
 
 
-### Documentation
+## Documentation
 
 * remove multiprocessing note ([#82](https://www.github.com/googleapis/python-pubsublite/issues/82)) ([a8d26a1](https://www.github.com/googleapis/python-pubsublite/commit/a8d26a11db301d7dc7a97ff7f7405d82bcf0a910))
 
-### [0.2.0](https://www.github.com/googleapis/python-pubsublite/compare/v0.1.0...v0.2.0) (2020-12-14)
+## [0.2.0](https://www.github.com/googleapis/python-pubsublite/compare/v0.1.0...v0.2.0) (2020-12-14)
 
 
-### Features
+## Features
 
 * Add support for increasing partitions in python ([#74](https://www.github.com/googleapis/python-pubsublite/issues/74)) ([e117a1a](https://www.github.com/googleapis/python-pubsublite/commit/e117a1aab8abe70f5b867395e3349053c7592aa7))
 
 
-### Bug Fixes
+## Bug Fixes
 
 * Fix type hints in paths now that string projects are allowed. ([#75](https://www.github.com/googleapis/python-pubsublite/issues/75)) ([b5ffc42](https://www.github.com/googleapis/python-pubsublite/commit/b5ffc423685596a309a7cee63f92c80ad5d74f07))
 
-### 0.1.0 (2020-11-19)
+## 0.1.0 (2020-11-19)
 
 
-### Features
+## Features
 
 * generate v1 ([4624ac7](https://www.github.com/googleapis/python-pubsublite/commit/4624ac7f6fb3fed3795222afce068c9b3de9be0f))
 * Implement a single partition publisher ([#8](https://www.github.com/googleapis/python-pubsublite/issues/8)) ([fd1d76f](https://www.github.com/googleapis/python-pubsublite/commit/fd1d76fd4147b499be225b2085dbfe4b114f288d))
@@ -64,7 +64,7 @@
 * Wire batching settings through publisher client factories ([#42](https://www.github.com/googleapis/python-pubsublite/issues/42)) ([a037d0b](https://www.github.com/googleapis/python-pubsublite/commit/a037d0b8073724aea144bf08c1bd78080df6f0d9))
 
 
-### Bug Fixes
+## Bug Fixes
 
 * Assorted fixes to the publish layer and internals. ([#39](https://www.github.com/googleapis/python-pubsublite/issues/39)) ([4276882](https://www.github.com/googleapis/python-pubsublite/commit/4276882d3fa81ddd5476ace630c2b6ee2221fdfc))
 * Enforce that __enter__ is called on all user interfaces before use ([#70](https://www.github.com/googleapis/python-pubsublite/issues/70)) ([eb8d63a](https://www.github.com/googleapis/python-pubsublite/commit/eb8d63ad5bfc8ef54b724dfe81ec5e84ac8d60cd))
@@ -79,7 +79,7 @@
 * update pubsub_context to correctly modify proto map fields ([#38](https://www.github.com/googleapis/python-pubsublite/issues/38)) ([860c443](https://www.github.com/googleapis/python-pubsublite/commit/860c443fe99dbb932dfdc946620423aa4357109c))
 
 
-### Documentation
+## Documentation
 
 * add documentation ([#66](https://www.github.com/googleapis/python-pubsublite/issues/66)) ([fda26bc](https://www.github.com/googleapis/python-pubsublite/commit/fda26bcb2cbf91edb6061884d18a7401ad2c72cd))
 * add documentation that Publisher and Subscriber must be used in a `with` block ([#55](https://www.github.com/googleapis/python-pubsublite/issues/55)) ([32bc302](https://www.github.com/googleapis/python-pubsublite/commit/32bc302cabe988ebe7b1ce8fe186dacf9a096e5a))
